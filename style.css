@@ -1,3 +1,102 @@
 html{
-    background-color: ;
+    background-color: rgb(3, 3, 27);
+}
+
+h1{
+    background-color:rgb(31, 40, 77);
+    text-align: center;
+    font-size: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+nav{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: rgb(31, 40, 77);
+    border-radius: 5px;
+}
+
+.lore{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.lore > h2{
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    color: aliceblue;
+}
+
+.lore > p{
+    color: aliceblue;
+}
+
+.lore > img{
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+
+.gear {
+    width: 90%;
+    margin: 40px auto;
+    background-color: #3a506d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(49, 48, 92);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #6e88aa;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    color: aliceblue;
+}
+
+th {
+    background-color: #23305a;
+}
+
+td > img {
+    border-radius: 5px;
+    transform: 1s ease-in-out;
+}
+
+img:hover {
+    transform: scale(125%); 
 }
